@@ -1,0 +1,120 @@
+.projeto {
+    width: 952px;
+    height: 86px;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin-top: 40px;
+    margin-left: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folder {
+    background-image: url('/public/imagens/folder.svg');
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: no repeat;
+    margin-left: 30px;
+}
+
+.proj {
+    color: #837E9F;
+    font-family: 'Merriweather Sans';
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-left: 30px;
+}
+
+.repositorio a {
+    text-decoration: none;
+    color: #837E9F;
+    font-family: 'Merriweather Sans';
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.repositorio a:hover {
+    color: red;
+}
+
+.projetos {
+    margin-left: 50px;
+    margin-top: 31px;
+
+    display: grid;
+    grid-template-columns: 461px 461px;
+    grid-template-rows: 186px 186px;
+    grid-gap: 30px;
+}
+
+.caixa {
+    width: 461px;
+    height: 186px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.caixa h4{
+    color: #837E9F;
+    font-family:  'Merriweather Sans';
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+
+    padding-left: 66px;
+    padding-top: 31px;
+
+}
+
+.caixa p {
+    font-family: 'Merriweather Sans';
+    color: #837E9F;
+    font-weight: 400;
+    font-size: 12px;
+
+    padding-left: 66px;
+    margin-top: 20px;
+}
+.caixa a:hover {
+    color: red;
+}
+.caixa a {
+    text-decoration: none;
+    color: #837E9F;
+}
+
+.um {
+    background-image: url('/public/imagens/favicon-16x16.png');
+    background-repeat: no-repeat;
+}
+.site1 {
+    background-image: url('/public/imagens/favicon-16x16.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+.site2 {
+    background-image: url('/public/imagens/logo-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+.site3 {
+    background-image: url('/public/imagens/favicon.ico');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+.site4 {
+    background-image: url('/public/imagens/sun.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
