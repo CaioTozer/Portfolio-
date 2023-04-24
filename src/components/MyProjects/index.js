@@ -4,23 +4,23 @@ import './MyProjects.css'
 const MyProjects = () => {
     return (
         <div className="MyProjects">
-                <div className="projeto">
-            <div className="folder">
-                <h3 className="proj">My Projects</h3>
+            <div className="projeto">
+                <div className="folder">
+                    <h3 className="proj">My Projects</h3>
+                </div>
+                <p className="repositorio">
+                    <a href="https://github.com/CaioTozer?tab=repositories" target="blank">Ver Todos</a>
+                </p>
             </div>
-            <p className="repositorio">
-                <a href="https://github.com/CaioTozer?tab=repositories" target="blank">Ver Todos</a>
-            </p>
-        </div>
-                <div className="projetos">
+            <div className="projetos">
                 <div className="caixa">
                     <h4><a href="https://rocketflix-psi.vercel.app/" target="blank" className="site1">Rockeflix</a></h4>
-                    <p>Em dúvida do que assistir? esse site pode te ajudar com isso, basta clicar no botão que a aplicações trás 
-                    dicas de filme, com o cartaz e descrição.
+                    <p>Em dúvida do que assistir? esse site pode te ajudar com isso, basta clicar no botão que a aplicações trás
+                        dicas de filme, com o cartaz e descrição.
                     </p>
                     <p className="lang">JavaScript</p>
                 </div>
-                <div className="caixa"> 
+                <div className="caixa">
                     <h4><a href="https://rocket-coffee-jet.vercel.app/" target="blank" className="site2">RocketCoffee</a></h4>
                     <p>Site fictício para fazer pedidos de café.</p>
                     <p className="lang">JavaScrip</p>

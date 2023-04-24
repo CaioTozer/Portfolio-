@@ -1,39 +1,81 @@
-.educacao {
-    width: 348px;
-    height: 690px;
-    background-color: #302F3D;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
-    margin-left: 40px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+@media screen and (max-width: 1023px) {
+    .educacao {
+        width: 348px;
+        height: 690px;
+        background-color: #302F3D;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+        margin-top: 30px;
+    }
+    .edu {
+        font-weight: 700;
+        font-size: 20px;
+        color: #837E9F;
+        font-family: 'Merriweather Sans';
+    
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    .h4 {
+        font-family: 'Merriweather Sans';
+        color: #837E9F;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .cursos {
+        margin-left: 20px;
+    }
+    
+    .h1 {
+        font-family: 'Merriweather Sans';
+        color: #837E9F;
+        font-weight: 400;
+        font-size: 12px;
+    }
 }
-.edu {
-    font-weight: 700;
-    font-size: 20px;
-    color: #837E9F;
-    font-family: 'Merriweather Sans';
 
-    padding-top: 30px;
-    padding-left: 20px;
-}
-
-.h4 {
-    font-family: 'Merriweather Sans';
-    color: #837E9F;
-    font-weight: 700;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-.cursos {
-    margin-left: 20px;
-}
-
-.h1 {
-    font-family: 'Merriweather Sans';
-    color: #837E9F;
-    font-weight: 400;
-    font-size: 12px;
+@media screen and (min-width: 1024px) {
+    .educacao {
+        width: 348px;
+        height: 690px;
+        background-color: #302F3D;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .edu {
+        font-weight: 700;
+        font-size: 20px;
+        color: #837E9F;
+        font-family: 'Merriweather Sans';
+    
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    .h4 {
+        font-family: 'Merriweather Sans';
+        color: #837E9F;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .cursos {
+        margin-left: 20px;
+    }
+    
+    .h1 {
+        font-family: 'Merriweather Sans';
+        color: #837E9F;
+        font-weight: 400;
+        font-size: 12px;
+    }
 }

@@ -1,125 +1,254 @@
-.links {
-    width: 348px;
-    height: 348px;
-    background-color: #302F3D;
-    margin-top: 20px;
-    margin-left: 40px;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+@media screen and (max-width: 1023px) {
+    .links {
+        width: 348px;
+        height: 348px;
+        background-color: #302F3D;
+        margin-top: 20px;
+        border-radius: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    .pais {
+        background-image: url('/public/imagens/map-pin.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 34px;
+    }
+    
+    .pais div {
+        margin-left: 25px;
+    }
+    
+    .trabalho {
+        background-image: url('/public/imagens/briefcase.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .trabalho div {
+        margin-left: 25px;
+    }
+    
+    .github {
+        background-image: url('/public/imagens/github.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .github a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .linkedin {
+        background-image: url('/public/imagens/linkedin.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .linkedin a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .insta {
+        background-image: url('/public/imagens/instagram.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .insta a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .email {
+        background-image: url('/public/imagens/mail.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .email a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .links p {
+        margin-left: 40px;
+    }
+    
+    a:hover {
+        color: red;
+    }
 }
 
-.pais {
-    background-image: url('/public/imagens/map-pin.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 34px;
-}
-
-.pais div {
-    margin-left: 25px;
-}
-
-.trabalho {
-    background-image: url('/public/imagens/briefcase.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 28px;
-}
-
-.trabalho div {
-    margin-left: 25px;
-}
-
-.github {
-    background-image: url('/public/imagens/github.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 28px;
-}
-
-.github a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #837E9F;
-}
-
-.linkedin {
-    background-image: url('/public/imagens/linkedin.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 28px;
-}
-
-.linkedin a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #837E9F;
-}
-
-.insta {
-    background-image: url('/public/imagens/instagram.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 28px;
-}
-
-.insta a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #837E9F;
-}
-
-.email {
-    background-image: url('/public/imagens/mail.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    color: #837E9F;
-    margin-top: 28px;
-}
-
-.email a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #837E9F;
-}
-
-.links p {
-    margin-left: 40px;
-}
-
-a:hover {
-    color: red;
+@media screen and (min-width: 1024px) {
+    .links {
+        width: 348px;
+        height: 348px;
+        background-color: #302F3D;
+        margin-top: 20px;
+        margin-left: 40px;
+        border-radius: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    .pais {
+        background-image: url('/public/imagens/map-pin.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 34px;
+    }
+    
+    .pais div {
+        margin-left: 25px;
+    }
+    
+    .trabalho {
+        background-image: url('/public/imagens/briefcase.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .trabalho div {
+        margin-left: 25px;
+    }
+    
+    .github {
+        background-image: url('/public/imagens/github.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .github a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .linkedin {
+        background-image: url('/public/imagens/linkedin.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .linkedin a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .insta {
+        background-image: url('/public/imagens/instagram.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .insta a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .email {
+        background-image: url('/public/imagens/mail.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #837E9F;
+        margin-top: 28px;
+    }
+    
+    .email a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
+    .links p {
+        margin-left: 40px;
+    }
+    
+    a:hover {
+        color: red;
+    }
 }
