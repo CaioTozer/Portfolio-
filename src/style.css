@@ -5,7 +5,25 @@
 body {
     background-color: #22212C;
 }
-@media screen and (max-width: 1023px){
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #302F3D;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #837E9F;
+    border-radius: 20px;
+  }
+
+@media screen and (min-width: 1366px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1365px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -19,7 +37,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .container {
         display: flex;
     }
