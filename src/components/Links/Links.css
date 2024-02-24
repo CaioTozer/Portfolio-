@@ -29,7 +29,7 @@
     }
     
     .trabalho {
-        background-image: url('/public/imagens/briefcase.svg');
+        background-image: url('/public/imagens/github.svg');
         background-size: contain;
         background-repeat: no-repeat;
     
@@ -38,6 +38,12 @@
         font-size: 13px;
         color: #837E9F;
         margin-top: 28px;
+    }
+    
+     .trabalho a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #837E9F;
     }
     
     .trabalho div {
