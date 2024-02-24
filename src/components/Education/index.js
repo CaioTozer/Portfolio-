@@ -40,8 +40,12 @@ const Education = () => {
             <p className="h1">NextJS</p>
 
             <p className="h4">UFRPE</p>
-            <p className="h1">2023-2027</p>
+            <p className="h1">2023-2024</p>
             <p className="h1">Licenciatura em Computação</p>
+            
+            <p className="h4">Unifbv/Wyden</p>
+            <p className="h1">2023-2027</p>
+            <p className="h1">Ciêrncia da computação</p>
             </div>
 
         </div>
