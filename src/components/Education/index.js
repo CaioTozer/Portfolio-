@@ -45,7 +45,7 @@ const Education = () => {
             
             <p className="h4">Unifbv/Wyden</p>
             <p className="h1">2023-2027</p>
-            <p className="h1">Ciêrncia da computação</p>
+            <p className="h1">Ciência da computação</p>
             </div>
 
         </div>
